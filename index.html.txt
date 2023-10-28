@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Registretion From</title>
+<h1 align="center">...APPLICATION FORM...</h1>
+<script type="text/javascript">
+function display()
+{
+alert(document.getElement ById("form1").length);
+}
+</script>
+</head>
+<body onload="display()">
+<form id="form1">
+<table border="1">
+<tr>
+<td>Name</td>
+<td><input type="text"value=""/></td>
+</tr>
+<tr>
+<td>choose your Username</td>
+<td><input type="text"value=""/></td>
+</tr>
+<tr>
+<td>create password</td>
+<td><input type="passwort"value=""/></td>
+</tr>
+<tr>
+<td>confirm password</td>
+<td><input type="password"value=""/></td>
+</tr>
+<tr>
+<td>Birthday</td>
+<td><select name="date"><option value=""></td>
+<td><select name="month"><option value=""></td>
+<td><select name="year"><option value=""></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio"name="gender"/>Male</td>
+<td><input type="radio"name="gender"/>Female</td>
+</tr>
+<tr>
+<td>Mobile</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Location</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="checkbox"/>I agree the terms and policy</td>
+</tr>
+<tr>
+<td><input type="button"value="create"/></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
